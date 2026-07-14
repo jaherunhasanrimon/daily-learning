@@ -6,9 +6,9 @@ Welcome to my daily learning repository! This project serves as a structured spa
 
 The repository is organized into three main learning modules:
 
-*   **[DSA/](file:///Users/jahirunhassanrimon/Documents/Projects/daily-learning/DSA)**: Data Structures and Algorithms exercises, patterns, and complexity analysis.
-*   **[Python/](file:///Users/jahirunhassanrimon/Documents/Projects/daily-learning/Python)**: Python programming concepts, scripts, frameworks, and utility tools.
-*   **[SQL/](file:///Users/jahirunhassanrimon/Documents/Projects/daily-learning/SQL)**: Database queries, design, optimizations, and schema challenges.
+*   **[DSA/](./DSA)**: Data Structures and Algorithms exercises, patterns, and complexity analysis.
+*   **[Python/](./Python)**: Python programming concepts, scripts, frameworks, and utility tools.
+*   **[SQL/](./SQL)**: Database queries, design, optimizations, and schema challenges.
 
 ---
 
