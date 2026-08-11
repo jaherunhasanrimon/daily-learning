@@ -32,11 +32,9 @@ print(f"Binary 0b1010    = {binary_value}")    # 10
 print(f"Octal 0o12       = {octal_value}")     # 10
 print(f"Hex 0xFF         = {hex_value}")       # 255
 
-# =============================================================================
-# SECTION 2: Floats (float)
-# =============================================================================
+                            ## SECTION 2: Floats (float) ##
 
-print("\n--- Section 2: Floats ---")
+print("\n-------- Section 2: Floats --------")
 
 accuracy: float = 0.9742
 pi: float = 3.14159
@@ -53,11 +51,9 @@ huge: float = 1.5e8           # 150,000,000.0
 print(f"tiny: {tiny}")         # 1.5e-10
 print(f"huge: {huge}")         # 150000000.0
 
-# =============================================================================
-# SECTION 3: The Floating-Point Precision Trap
-# =============================================================================
+                                ## SECTION 3: The Floating-Point Precision Trap ##
 
-print("\n--- Section 3: Float Precision ---")
+print("\n-------- Section 3: Float Precision --------")
 
 # This is NOT a Python bug — it affects ALL languages using IEEE 754
 result = 0.1 + 0.2
@@ -79,11 +75,9 @@ print(f"NaN:          {not_a_number}")     # nan
 # NaN is unusual — it does not equal itself
 print(f"nan == nan:   {not_a_number == not_a_number}")  # False!
 
-# =============================================================================
-# SECTION 4: int vs float Arithmetic Preview
-# =============================================================================
+                            ## SECTION 4: int vs float Arithmetic Preview ##
 
-print("\n--- Section 4: int vs float Result Types ---")
+print("\n-------- Section 4: int vs float Result Types --------")
 
 # int + int → int
 a = 5
@@ -102,11 +96,9 @@ division_result = 10 / 2
 print(f"10 / 2 = {division_result}, type: {type(division_result)}")  # 5.0, <class 'float'>
 # Full operator coverage in Day 02!
 
-# =============================================================================
-# SECTION 5: Complex Numbers
-# =============================================================================
+                            ## SECTION 5: Complex Numbers ##
 
-print("\n--- Section 5: Complex Numbers ---")
+print("\n-------- Section 5: Complex Numbers --------")
 
 # Complex: real_part + imaginary_part * j
 signal: complex = 3 + 4j
@@ -121,19 +113,3 @@ print(f"pure imaginary: {pure_imaginary}")  # 2j
 # Note: Complex numbers are more relevant in signal processing
 # and some advanced math — you'll encounter them in ML later.
 
-# =============================================================================
-# EXPECTED OUTPUT (abbreviated)
-# =============================================================================
-#
-# --- Section 1: Integers ---
-# samples: 50000
-# negative: -273
-# zero: 0
-# 2^100 = 1267650600228229401496703205376
-# ...
-# --- Section 3: Float Precision ---
-# 0.1 + 0.2 = 0.30000000000000004
-# Is it exactly 0.3? False
-# Formatted: 0.3
-# ...
-# nan == nan:   False
